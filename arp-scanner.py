@@ -30,7 +30,7 @@ print "\n[*] Scanning..." # Initiate scanning
 start_time = datetime.now()
 
 try:
-        from scapy.all import srp, Ether, ARP, conf # Immport needed modules from scapy
+        from scapy.all import srp, Ether, ARP, conf # Import needed modules from scapy
 except ImportError:
         print "[!] Scapy Installation Not Found"
         sys.exit(1)
